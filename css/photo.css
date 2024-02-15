@@ -1,0 +1,58 @@
+
+.winner-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.winner-photos img {
+    border-radius: 5px;
+    width: 150px; 
+    height: auto;
+}
+
+.instagram-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.instagram-icon {
+    width: 50px; 
+    border-radius: 50%;
+}
+
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.tips-grid div {
+    background: #1c1c3c;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #13132b;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .winner-photos img {
+        width: 100px; 
+    }
+
+    .tips-grid {
+        grid-template-columns: 1fr 1fr; 
+    }
+}
